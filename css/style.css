@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+html{
+    height: 100%;
+    font-size: 14px;
+}
+
+.container{
+    max-width: 540px;
+    margin: auto;
+
+    background: cadetblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding: 20px;
+    color: white;
+    height: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_perfil{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(to right,rgb(209, 82, 82),rgb(82, 82, 221));
+}
+
+.title{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+.description{
+    font-size: 1.3em;
+    color: black;
+}
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link a{
+    width: 90%;
+    height: 3rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right,rgb(204, 71, 71),rgb(48, 48, 149));
+
+    padding: 1rem;
+    margin: 1rem;
+
+    border-radius: 5rem;
+}
+
+.link img{
+    width: 5rem;
+    padding: .1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a img{
+    width: 100px;
+    background: blue;
+    margin: .3rem;
+    padding: .1rem;
+    border-radius: 50%;
+}
